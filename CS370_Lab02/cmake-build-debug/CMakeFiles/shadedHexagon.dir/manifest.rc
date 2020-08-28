@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/cmake-build-debug/CMakeFiles/shadedHexagon.dir/embed.manifest"
