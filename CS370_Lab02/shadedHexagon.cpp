@@ -27,21 +27,20 @@ void render_scene() {
     glUseProgram(program);
     glBindVertexArray(VAOs[Triangles]);
     glBindBuffer(GL_ARRAY_BUFFER, Buffers[PosBuffer]);
-    glVertexAttribPointer(vPos, posCoords, GL_FLOAT, GL_FALSE, 0, NULL);
+    glVertexAttribPointer(vPos, posCoords, GL_FLOAT, GL_FALSE, 0, nullptr);
     glEnableVertexAttribArray(vPos);
 
     // Bind color buffer
     glBindBuffer(GL_ARRAY_BUFFER, Buffers[ColBuffer]);
 
-    glVertexAttribPointer(vCol, colCoords, GL_FLOAT, GL_FALSE, 0, NULL);
+    glVertexAttribPointer(vCol, colCoords, GL_FLOAT, GL_FALSE, 0, nullptr);
     glEnableVertexAttribArray(vCol);
-    throw_if_gl_error(EXC_MSG("render_scene failed!"));
+    thigle(EXC_MSG("render_scene failed!"));
 
 
     // TODO: Draw indexed geometry
-
-    glDrawArrays(GL_TRIANGLES, 0, numIndices);
-
+    glDrawElements(GL_TRIANGLES, numIndices, GL_UNSIGNED_SHORT, nullptr);
+    thigle(EXC_MSG("Drawing elements failed!"));
 }
 
 void build_geometry( )
@@ -72,7 +71,9 @@ void build_geometry( )
                     {0.0f, 0.0f, 1.0f, 1.0f}
             };
 
-    // TODO: Define face indices (ensure proper orientation)
+    // Define face indices (ensure proper orientation)
+    // GLushort indices[] = { 0, 1, 2, 2, 3, 4, 4, 5, 0, 0, 2, 4 };
+    GLushort indices[][3] = { {0, 1, 2}, {2, 3, 4}, {4, 5, 0}, {0, 2, 4} };
 
     // Generate vertex buffers
     glGenBuffers(NumBuffers, Buffers);
@@ -84,10 +85,12 @@ void build_geometry( )
     // Bind vertex colors
     glBindBuffer(GL_ARRAY_BUFFER, Buffers[ColBuffer]);
     glBufferData(GL_ARRAY_BUFFER, sizeof(colors), colors, GL_STATIC_DRAW);
-    throw_if_gl_error(EXC_MSG("Binding buffers for color data failed."));
+    thigle(EXC_MSG("Binding buffers for color data failed."));
 
-    // TODO: Bind indices
-
+    // Bind indices
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, Buffers[IndexBuffer]);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+    thigle(EXC_MSG("Binding indices for face data failed."));
 }
 
 void display( )
@@ -123,7 +126,7 @@ int main(int argc, char**argv)
         build_geometry();
 
         // Load shaders and associate shader variables
-        ShaderInfo shaders[] = { {GL_VERTEX_SHADER, vertex_shader},{GL_FRAGMENT_SHADER, frag_shader},{GL_NONE, NULL} };
+        ShaderInfo shaders[] = { {GL_VERTEX_SHADER, vertex_shader},{GL_FRAGMENT_SHADER, frag_shader},{GL_NONE, nullptr} };
         program = LoadShaders(shaders);
         vPos = glGetAttribLocation(program, "vPosition");
         vCol = glGetAttribLocation(program, "vColor");

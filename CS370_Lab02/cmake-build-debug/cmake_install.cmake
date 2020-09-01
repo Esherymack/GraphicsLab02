@@ -1,4 +1,4 @@
-# Install script for directory: E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02
+# Install script for directory: C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

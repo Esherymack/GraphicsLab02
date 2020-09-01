@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/glerror_utility.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/glerror_utility.h
 iostream
 -
 string
@@ -14,11 +14,11 @@ string
 sstream
 -
 include/GLEW/glew.h
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/include/GLEW/glew.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/include/GLEW/glew.h
 include/GLFW/glfw3.h
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/include/GLFW/glfw3.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/include/GLFW/glfw3.h
 
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/include/GLEW/glew.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/include/GLEW/glew.h
 stddef.h
 -
 inttypes.h
@@ -34,7 +34,7 @@ OpenGL/glu.h
 GL/glu.h
 -
 
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/include/GLFW/glfw3.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/include/GLFW/glfw3.h
 stddef.h
 -
 stdint.h
@@ -78,25 +78,25 @@ GL/glext.h
 GL/glu.h
 -
 
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/shadedHexagon.cpp
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/shadedHexagon.cpp
 stdio.h
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/stdio.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/stdio.h
 vgl.h
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/vgl.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/vgl.h
 utils.h
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/utils.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/utils.h
 glerror_utility.h
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/glerror_utility.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/glerror_utility.h
 
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/utils.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/utils.h
 include/GLEW/glew.h
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/include/GLEW/glew.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/include/GLEW/glew.h
 include/GLFW/glfw3.h
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/include/GLFW/glfw3.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/include/GLFW/glfw3.h
 
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/vgl.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/vgl.h
 include/GLEW/glew.h
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/include/GLEW/glew.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/include/GLEW/glew.h
 include/GLFW/glfw3.h
-E:/programming/school 2020/370/labs/CS370_Lab02/CS370_Lab02/include/GLFW/glfw3.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/include/GLFW/glfw3.h
 
