@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <cstdio>
 #include "vgl.h"
 #include "utils.h"
 
@@ -63,16 +63,15 @@ void build_geometry( )
     // Define colors per vertex
     GLfloat colors[][4] =
             {
-                    {0.0f, 0.0f, 1.0f, 1.0f},
-                    {1.0f, 0.0f, 0.0f, 1.0f},
-                    {1.0f, 0.0f, 0.0f, 1.0f},
-                    {0.0f, 1.0f, 0.0f, 1.0f},
-                    {0.0f, 1.0f, 0.0f, 1.0f},
-                    {0.0f, 0.0f, 1.0f, 1.0f}
+                    {0.95f, 0.82f, 0.7f, 1.0f},
+                    {0.94f, 0.72f, 0.63f, 1.0f},
+                    {0.95f, 0.55f, 0.55f, 1.0f},
+                    {0.33f, 0.56f, 0.651f, 1.0f},
+                    {0.17f, 0.37f, 0.45f, 1.0f},
+                    {0.0f, 0.1451f, 0.176f, 1.0f}
             };
 
     // Define face indices (ensure proper orientation)
-    // GLushort indices[] = { 0, 1, 2, 2, 3, 4, 4, 5, 0, 0, 2, 4 };
     GLushort indices[][3] = { {0, 1, 2}, {2, 3, 4}, {4, 5, 0}, {0, 2, 4} };
 
     // Generate vertex buffers

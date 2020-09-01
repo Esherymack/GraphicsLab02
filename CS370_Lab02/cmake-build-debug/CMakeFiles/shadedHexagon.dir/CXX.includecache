@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/glerror_utility.cpp
+glerror_utility.h
+C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/glerror_utility.h
+
 C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/glerror_utility.h
 iostream
 -
@@ -79,8 +83,8 @@ GL/glu.h
 -
 
 C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/shadedHexagon.cpp
-stdio.h
-C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/stdio.h
+cstdio
+-
 vgl.h
 C:/Users/esher/Documents/programming/school/370/labs/GraphicsLab02/CS370_Lab02/vgl.h
 utils.h

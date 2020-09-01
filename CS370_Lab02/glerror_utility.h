@@ -1,5 +1,5 @@
 //
-// Created by Madison on 8/27/2020.
+// Created by Madison Tibbett on 8/27/2020.
 //
 
 #include <iostream>

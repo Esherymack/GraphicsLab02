@@ -1,5 +1,5 @@
 //
-// Created by Madison on 8/27/2020.
+// Created by Madison Tibbett on 8/27/2020.
 //
 /*
  * Usage:
@@ -18,10 +18,10 @@
  * You can also put specific calls on lines that might cause problems, i.e.:
  *
     glDrawArrays(GL_TRIANGLES, 0, numVertices);
-    throw_if_gl_error(EXC_MSG("glDrawArrays failed."));
+    throw_if_gl_error(EXC_MSG(<message>));
  *
  * In the event this function call fails, this outputs:
- * "exception: glDrawArrays failed. (path\to\file.cpp:linenumber) - Err. Or code: <errorcode>"
+ * "exception: <error message> (path\to\file.cpp:linenumber) - Err. Or code: <errorcode>"
  * It's very useful.
  */
 
