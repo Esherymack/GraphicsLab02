@@ -72,7 +72,7 @@ void build_geometry( )
             };
 
     // Define face indices (ensure proper orientation)
-    GLushort indices[][3] = { {0, 1, 2}, {2, 3, 4}, {4, 5, 0}, {0, 2, 4} };
+    GLushort indices[] = { 0, 1, 2, 2, 3, 4, 4, 5, 0, 0, 2, 4 };
 
     // Generate vertex buffers
     glGenBuffers(NumBuffers, Buffers);
